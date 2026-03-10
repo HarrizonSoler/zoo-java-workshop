@@ -1,14 +1,13 @@
 {
+	"name": "Java with Ant",
   "image": "mcr.microsoft.com/devcontainers/java:17",
   "features": {
 		"ghcr.io/devcontainers/features/java:1": {
 		  "installAnt": "true"
 		}
-  }
-
+  },
   "customizations": {
 		"vscode": {
-			"settings": {},
 			"extensions": [
 				"MS-vsliveshare.vsliveshare",
 				"vscjava.vscode-java-pack"
